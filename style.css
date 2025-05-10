@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin: 0 5rem;
+}
+.nav{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .left{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+}
+.nav .left ul{
+    padding: 0 1 rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: 600;
+    color: hsl(219, 9%, 45%);
+}
+hr{
+    color: hsl(219, 9%, 45%);
+    margin: 1rem;
+}
+.nav .right{
+    display: flex;
+    align-items: center;
+}
+.nav .right .image-avatar{
+    height: 2.5rem;
+    padding: 0 1rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.main-image img{
+   width: 70%;
+   height: 350px; 
+   border-radius: 1rem;
+}
+.thumbnail img{
+    width: 15%;
+    padding: 0.3rem;
+    border-radius: 1.2rem;
+}
+
+.content .right h3{
+    color:  hsl(219, 9%, 45%);
+}
+.content .right h1{
+    color: hsl(220, 13%, 13%);
+    margin-bottom: 2rem;
+}
+.content .right p{
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.content .right .items{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+.content .right .items p{
+    line-height: 0;
+    color: hsl(220, 13%, 13%);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.content .right .items button{
+    background-color: hsl(220, 13%, 13%);
+    color: hsl(0, 0%, 100%);
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 0.8rem;
+}
+
+.content .right {
+   color:  hsl(219, 9%, 45%); 
+   font-weight: bold;
+}
+
+.content .right .bottom{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content .right .bottom .add-minus{
+    background-color: hsl(223, 64%, 98%);
+    padding: 0.6rem 1rem;
+    border-radius: 0.6rem;
+}
+
+.content .right .bottom .add-minus span{
+    padding: 0 1.2rem;
+}
+
+.content .right .bottom .add-to-cart{
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 0%);
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 0.6rem;
+    margin-left: 1rem;
+}
+.content .right .bottom .add-to-cart img{
+    height: 14px;
+    color: hsl(0, 0%, 0%);
+}
